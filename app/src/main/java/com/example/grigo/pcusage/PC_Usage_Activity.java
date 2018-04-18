@@ -12,7 +12,7 @@ import java.util.List;
  * Created by grigo on 27-Feb-18.
  */
 
-public class MainActivity extends AppCompatActivity {
+public class PC_Usage_Activity extends AppCompatActivity {
 
     private ExpandableListView listView;
     private ExpandableListView listView2;
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.pc_usage_layout);
 
         listView = (ExpandableListView) findViewById(R.id.lvExp);
         listView2 = (ExpandableListView) findViewById(R.id.lvExp2);

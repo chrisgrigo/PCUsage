@@ -12,7 +12,7 @@
 
         <activity
             android:label="MainActivity"
-            android:name=".MainActivity" >
+            android:name=".PC_Usage_Activity" >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
